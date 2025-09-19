@@ -1,0 +1,168 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.6;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main Container */
+#main {
+  border: 3px solid #fff;
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #111;
+}
+
+/* Title Section */
+header {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 15px;
+}
+
+#title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#tribute-info {
+  font-size: 1.2rem;
+  margin-top: 8px;
+  color: #ddd;
+}
+
+/* Images */
+#img-div {
+  margin: 30px auto;
+  border: 2px solid #fff;
+  padding: 15px;
+  background-color: #000;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.9);
+}
+
+#img-caption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #ccc;
+}
+
+/* Section Headings */
+h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 5px;
+  font-size: 1.6rem;
+}
+
+h3 {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  text-align:left;
+}
+
+/* Text Content */
+section p {
+  margin: 15px auto;
+  max-width: 750px;
+  text-align: left;
+}
+
+strong {
+  color: #fff;
+}
+
+em {
+  color: #aaa;
+}
+
+/* Quotes */
+blockquote {
+  border-left: 4px solid #fff;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-style: italic;
+  max-width: 700px;
+  color: #ccc;
+  text-align: left;
+  background: #111;
+}
+
+/* Lists */
+ul {
+  margin:15px auto;
+  padding-left: 20px;
+  max-width: 750px;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 10px;
+}
+li:last-child{
+  margin-bottom:50px;
+}
+/* Secondary Images */
+figure {
+  margin: 30px auto;
+  border: 2px solid #fff;
+  padding: 15px;
+  background-color: #000;
+}
+
+figure img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.9);
+}
+
+figure figcaption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #ccc;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  border-top: 2px solid #fff;
+  padding-top: 15px;
+}
+
+footer a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #000;
+  background-color: #fff;
+  padding: 2px 6px;
+  text-decoration:none;
+}
