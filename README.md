@@ -1,4 +1,4 @@
-# RM Tribute Page 🖤🤍
+# Minimal Tribute Page
 
 A high-contrast black & white tribute page dedicated to **Kim Namjoon (RM)** of BTS.  
 Built with **HTML & CSS**, featuring bold borders, responsive images, and clean typography.
